@@ -1,0 +1,94 @@
+body{
+background-color:#FFEBCD;
+}
+li{
+font-family:Arial;
+font-size:15px;
+font-color:blue;}
+h2{width:300px;
+background-color:#FFE4E1;
+color: brown;
+font-style:strong;
+}
+#par{
+font-family:Arial;
+font-color:green;
+font-style:italic;
+font-size:18px;
+}
+div.nume1{
+font-size:25px;
+color:#8FBC8F;
+width:100px;
+}
+div.nume1:hover{
+color:#556B2F;
+opacity:0.5;
+}
+.nume3{
+font-family:times new roman;
+background-color:#BC8F8F;
+font-size:14px;
+width:200px;
+}
+#tab{
+border: 2px solid brown;
+  padding: 10px;
+  border-radius: 50px 20px;
+ font-family:verdana;
+ font-size:20px;
+ font-color:purple;
+  }
+ 
+  .grid-container {
+border: 2px solid green;
+  padding: 10px;
+  border-radius: 50px 20px;
+  display: grid;
+  grid-template: 100px / auto auto auto;
+  grid-gap: 10px;
+  background-color: green;
+  padding: 10px;
+  
+}
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+      }
+.grid-container > div {
+
+ font-family:verdana;
+ font-size:20px;
+ font-color:purple;
+  background-color: yellow;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+img{
+width:430px;
+height:600px;
+border-radius:8px;
+opacity:1;
+}
+img:hover{
+opacity:0.5;
+}
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
